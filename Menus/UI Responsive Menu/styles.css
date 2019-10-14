@@ -1,0 +1,21 @@
+/* .uk-navbar-container.uk-light: not(.uk-navbar-transparent):
+    not(.uk-navbar-primary) background: $color #mobile-navbar .uk-offcanvas-bar
+    box-shadow: 2px 0 5px 0
+    (
+      $color - 20
+    )
+    li: nth-child(1),
+  li: nth-child(2),
+  li: nth-child(3) border-left: unset li padding-left: 5px border-left: 2px
+    solid transparent &.uk-active padding-left: 5px border-left: 2px solid
+    (
+      $color + 50
+    )
+    ; */
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #222;
+}
+.uk-sticky-fixed {
+  box-shadow: 0 1px 5px 0;
+}
